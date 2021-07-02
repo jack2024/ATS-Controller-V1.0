@@ -1089,7 +1089,7 @@ int main(void)
 	HAL_Delay(10);
 	InitEnergyIC();
 	
-	
+	// Test push Git 2/7/64
 	
 	ReadSetting();
 	HAL_GPIO_WritePin(BUZZER_PORT, BUZZER_PIN,OFF_BUZZER);
