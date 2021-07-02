@@ -1,0 +1,1 @@
+testspi_mcp23s17\startup_stm32f070xb.o: startup_stm32f070xb.s

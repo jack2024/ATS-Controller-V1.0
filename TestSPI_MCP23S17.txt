@@ -1,0 +1,75 @@
+Configuration	TestSPI_MCP23S17
+STM32CubeMX 	4.21.0
+Date	06/02/2017
+MCU	STM32F070CBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB10
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	GPIO_Input	I/P Pullup
+11	PA1	GPIO_Output	
+12	PA2	GPIO_Output	
+13	PA3	GPIO_Output	
+14	PA4	GPIO_Output	
+15	PA5	SPI1_SCK	
+16	PA6	SPI1_MISO	
+17	PA7	SPI1_MOSI	
+18	PB0	GPIO_Output	
+21	PB10	SPI2_SCK	
+22	PB11	GPIO_Output	
+25	PB12	GPIO_Input	
+26	PB13	GPIO_Input	
+27	PB14	SPI2_MISO	
+28	PB15	SPI2_MOSI	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	USB_DM	
+33	PA12	USB_DP	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : TestSPI_MCP23S17
+Project Folder : D:\STM32\STM32F070CBT6 Project\Pjt2 - Copy\TestSPI_MCP23S17
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F0 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
